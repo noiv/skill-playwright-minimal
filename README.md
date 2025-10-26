@@ -1,5 +1,7 @@
 # Playwright Browser Daemon for Claude Code
 
+![Browser Daemon in Action](screenshot.png)
+
 Ever wish you could just ask Claude "what's in the console?" or "count the divs on this page" while you're debugging? This skill makes that happen.
 
 It's a persistent browser daemon that keeps Chrome open and lets Claude send it commands. Navigate pages, execute JavaScript, inspect console logs - all without opening and closing the browser a hundred times.

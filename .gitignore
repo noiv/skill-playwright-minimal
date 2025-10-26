@@ -24,6 +24,7 @@ test-results/
 playwright-report/
 screenshots/
 *.png
+!screenshot.png
 *.jpg
 *.jpeg
 
