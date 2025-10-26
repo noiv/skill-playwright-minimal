@@ -25,26 +25,28 @@ The browser window opens and stays open.
 
 ### Send commands
 
-```bash
-cd ~/.claude/skills/playwright-skill
+Use absolute paths (cleaner, no directory changes):
 
+```bash
 # Navigate
-node browser-client.js navigate "http://localhost:8080/..."
+~/.claude/skills/playwright-skill/browser-client.js navigate "http://localhost:8080/..."
 
 # Execute JavaScript
-node browser-client.js exec "document.title"
-node browser-client.js exec "document.querySelectorAll('div').length"
+~/.claude/skills/playwright-skill/browser-client.js exec "document.title"
+~/.claude/skills/playwright-skill/browser-client.js exec "document.querySelectorAll('div').length"
 
 # Console logs
-node browser-client.js console
-node browser-client.js console-clear
+~/.claude/skills/playwright-skill/browser-client.js console
+~/.claude/skills/playwright-skill/browser-client.js console-clear
 
 # Status
-node browser-client.js status
+~/.claude/skills/playwright-skill/browser-client.js status
 
 # Resize viewport
-node browser-client.js resize 1920 1080
+~/.claude/skills/playwright-skill/browser-client.js resize 1920 1080
 ```
+
+Both scripts have shebangs and are executable, so they can be called directly.
 
 ## Architecture
 
