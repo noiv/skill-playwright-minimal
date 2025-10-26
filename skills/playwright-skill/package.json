@@ -1,0 +1,27 @@
+{
+  "name": "skill-playwright-minimal",
+  "version": "1.0.0",
+  "description": "Persistent browser daemon for Claude Code. Navigate pages, execute JavaScript, inspect console logs - nothing else.",
+  "author": "noiv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noiv/skill-playwright-minimal.git"
+  },
+  "homepage": "https://github.com/noiv/skill-playwright-minimal#readme",
+  "keywords": [
+    "playwright",
+    "browser-automation",
+    "browser-daemon",
+    "claude-skill",
+    "debugging",
+    "console-logs",
+    "persistent-browser"
+  ],
+  "dependencies": {
+    "playwright": "^1.56.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
